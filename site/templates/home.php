@@ -1,11 +1,17 @@
-<?php?>
+<html>
+	<?php snippet('header') ?>
 
-<main>
-<h1><?php echo $page->title() ?></h1>
+	<body>
+		<main>
 
-<h1><?php echo $page->text() ?></h1>
+			<?php snippet('pictureWithHeading') ?>
 
-<h1><?php echo $page->body() ?></h1>
+			<div>
+				<?= $page->bodyText()->kt() ?>
+			</div>
+		</main>
 
+		<?php snippet('footer') ?>
 
-</main>
+	</body>
+</html>
