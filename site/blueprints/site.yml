@@ -8,6 +8,16 @@ tabs:
     unlisted: true
     drafts:
       template: default
+  analytics:
+    fields:
+      googleTag:
+        label: Google Global Site Tag
+        type: textarea
+        size: small
+      facebookTag:
+        label: Facebook Pixel Site Tag
+        type: textarea
+        size: small
   header:
     fields:
       logoImage:

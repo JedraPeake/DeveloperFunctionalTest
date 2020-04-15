@@ -39,7 +39,10 @@
 						</textarea>
 						<?= isset($alert['text']) ? '<span class="alert error">' . html($alert['text']) . '</span>' : '' ?>
 					</div>
-					<input type="submit" name="submit" value="Submit">
+					<div class="buttons">
+						<input type="reset" name="reset" value="Reset">
+						<input type="submit" name="submit" value="Submit">
+					</div>
 				</form>
 			<?php endif ?>
 		</main>

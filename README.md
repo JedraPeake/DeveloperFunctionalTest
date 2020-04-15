@@ -7,13 +7,6 @@
 
 ### Requirements
 #### Development
-###### Todo
--  the following should be easy accessible to non-technical admins:
-	- space for:
-		- google analytics tag
-		- facebook advertising pixel
-- styling
-
 ###### Done
 - duplicate of https://cdainterview.com/
 	- only needs home and contact page
@@ -27,18 +20,19 @@
 	- space for:
 		- each page meta title and desc
 		- link any email to the form
+		- google analytics tag
+		- facebook advertising pixel
 - should score atleast 80 using Google PageSpeed tool
 
 #### Deployment
-###### Todo
-- make sure the two pages are set to no index
-
 ###### Done
+- make sure the two pages are set to no index
 - host the website on a mock server/domain
 - the panel needs to be password protected
 - website needs to be password protected
 
 #### Stretch Goals
+###### Done
 - use kirby (https://getkirby.com/)
 - use a platform that isn't WordPress
 

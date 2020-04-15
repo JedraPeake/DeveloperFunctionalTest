@@ -96,3 +96,18 @@ footer p {
 .social a{
 	padding: 8px;
 }
+
+form {
+	display: flex;
+  	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+form div {
+	margin-bottom: 10px;
+}
+
+.buttons {
+	flex-direction: row;
+}
