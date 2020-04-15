@@ -6,7 +6,7 @@
 
 			<?php snippet('pictureWithHeading') ?>
 
-			<div>
+			<div class="content">
 				<?= $page->bodyText()->kt() ?>
 			</div>
 		</main>

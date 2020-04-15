@@ -83,7 +83,7 @@ Image:
 
 ----
 
-Imagetextheading: 
+Imagetextheading: CDA Interview Guide
 
 ----
 

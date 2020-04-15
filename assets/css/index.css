@@ -1,3 +1,7 @@
+body {
+	margin: 0px;
+}
+
 footer {
 	background-color: #000066;
 	
@@ -6,6 +10,59 @@ footer {
 
 a {
 	color: #FF6600;
+}
+
+.flex-container{
+	display: flex;
+}
+
+main img {
+	width: 100%;
+}
+
+.container {
+	position: relative;
+	text-align: center;
+	color: white;
+}
+
+.centered {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.centered h1{
+	text-decoration: underline;
+}
+
+.pages {
+	display: flex;
+  	align-items: center;
+  	justify-content: center;
+}
+
+.pages ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.pages li {
+	display: inline;
+}
+
+.content {
+	margin: 24px;
+}
+
+.logo {
+
+}
+
+.pages{
+
 }
 
 .active {
