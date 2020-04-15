@@ -5,14 +5,29 @@ body {
 footer {
 	background-color: #000066;
 	color: white;
+	height: 6%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 24px;
 }
 
 a {
+	color:black;
+	text-decoration: none;
+}
+
+main a {
+	color: #FF6600;
+}
+
+footer a {
 	color: #FF6600;
 }
 
 .flex-container{
 	display: flex;
+	margin: 24px;
 }
 
 main img {
@@ -45,25 +60,39 @@ main img {
 .pages ul {
 	list-style-type: none;
 	margin: 0;
-	padding: 0;
 }
 
 .pages li {
 	display: inline;
+	padding: 8px;
+	font-size: 32px;
 }
 
 .content {
 	margin: 24px;
 }
 
-.logo {
-
+.logo{
+	flex: 1 1 auto;
 }
 
-.pages{
-
+footer p {
+	padding: 0px;
+	margin: 0px;
 }
 
 .active {
+	text-decoration: underline;
+}
 
+.grow {
+	flex: 1 1 auto;
+}
+
+.fa {
+	color: white;
+}
+
+.social a{
+	padding: 8px;
 }

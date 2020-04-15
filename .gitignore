@@ -41,5 +41,6 @@ Icon
 /site/config/.license
 
 # vendor folder not needed with composer
-/vendor/*
+# no images on first load if i do thi
+#/vendor/*
 

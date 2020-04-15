@@ -7,9 +7,18 @@
 
 ### Requirements
 #### Development
+###### Todo
+-  the following should be easy accessible to non-technical admins:
+	- space for:
+		- google analytics tag
+		- facebook advertising pixel
+- styling
+
+###### Done
 - duplicate of https://cdainterview.com/
 	- only needs home and contact page
 - images, text, frontend resources can be from existing site
+- mobile responsive
 -  the following should be easy accessible to non-technical admins:
 	- change images
 	- switch to make any page no index
@@ -17,15 +26,15 @@
 	- easy to style text (h1, bold, links, center, etc)
 	- space for:
 		- each page meta title and desc
-		- google analytics tag
-		- facebook advertising pixel
 		- link any email to the form
-- mobile responsive
 - should score atleast 80 using Google PageSpeed tool
 
 #### Deployment
-- host the website on a mock server/domain
+###### Todo
 - make sure the two pages are set to no index
+
+###### Done
+- host the website on a mock server/domain
 - the panel needs to be password protected
 - website needs to be password protected
 

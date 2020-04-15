@@ -76,10 +76,9 @@ Poole A., Catano, VM., and Cunningham, DP. Predicting performance in Canadian de
 
 ----
 
-Image:
+Imagecover:
 
-- >
-  48549_3d_space_scene_galaxy_view_in_the_sky.jpg
+- home.jpg
 
 ----
 
@@ -87,12 +86,12 @@ Imagetextheading: CDA Interview Guide
 
 ----
 
-Onindex: false
+Onindex: true
 
 ----
 
-Metatitle: 
+Metatitle: CDA Interview Guide
 
 ----
 
-Metadescription: 
+Metadescription: Ultimate Guide to CDA Structured Interview: Tips & Proven Strategies to Help You Prepare & Ace Your CDA Interview

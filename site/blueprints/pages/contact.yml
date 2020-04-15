@@ -1,0 +1,46 @@
+title: Contact
+
+columns:
+    - width: 2/3
+      fields:
+        email:
+          label: Contact Us Email 
+          type: email
+          required: true
+        textBeforeForm:
+          label: Text Before Form
+          type: textarea
+          size: small
+        textAfterForm:
+          label: Text After Form
+          type: textarea
+          size: small
+  - width: 1/3
+      fields:
+        imageCover:
+          label: Image Cover
+          type: files
+          layout: cards
+          info: "{{ file.dimensions }}"
+          multiple: false
+          required: true
+        imageTextHeading:
+          label: Image Text Heading
+          type: text
+          multiple: false
+        onIndex:
+          label: On Index
+          type: toggle
+        metaTitle:
+          label: Meta Title
+          type: text
+          # https://moz.com/learn/seo/title-tag
+          minlength: 0
+          maxlength: 60
+        metaDescription:
+          label: Meta Description
+          type: text
+          # https://moz.com/learn/seo/meta-description
+          minlength: 0
+          maxlength: 160
+        
